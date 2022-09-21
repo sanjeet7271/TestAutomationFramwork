@@ -1,0 +1,13 @@
+2022-09-21 13:55:49 INFO  StoreTestLogic:39 - successfully validated  status code.
+2022-09-21 14:18:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-21 14:57:59 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-21 14:57:59 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-21 14:57:59 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-21 14:57:59 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
+2022-09-21 14:57:59 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
+2022-09-21 14:58:02 INFO  RandomJokesLogic:23 - successfully response recieved.
+2022-09-21 14:58:02 INFO  RandomJokesLogic:35 - successfully validated  status code.
+2022-09-21 14:58:02 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-21 14:58:02 INFO  ConfigurationReader:23 - Store base url is loading...
+2022-09-21 14:58:04 INFO  StoreTestLogic:34 - successfully response recieved.
+2022-09-21 14:58:04 INFO  StoreTestLogic:46 - successfully validated  status code.

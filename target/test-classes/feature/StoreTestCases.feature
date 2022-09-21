@@ -1,11 +1,8 @@
-Feature: Verify all currency for each store code
+Feature: End to End Tests for Store API
+  Description: the purpose of the test case is to cover all currency
 
   @SmokeTest
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
+  Scenario: user is getting response from API schema
+    Given send the request to the store
+    Then validate the status code from response
+    And validate the currency to corresponding store code
