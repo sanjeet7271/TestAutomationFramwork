@@ -7,6 +7,7 @@ public class ResourcesURLsReader extends ConfigurationReader {
 	private String getStoreBaseURI;
 	private String getJokesBaseURI;
 	private String getJokesResourceURI;
+	private String getRandomJokesResourceURI;
 
 	public ResourcesURLsReader() {
 		setConfig();
@@ -15,6 +16,7 @@ public class ResourcesURLsReader extends ConfigurationReader {
 	public void setConfig() {
 		this.getStoreBaseURI = prop.getProperty("STORE_URL");
 		this.getJokesBaseURI = prop.getProperty("JOKES_URL");
+		this.getRandomJokesResourceURI = prop.getProperty("RANDOMJOKESRESOURCEURI");
 		this.getJokesResourceURI = prop.getProperty("JOKESRESOURCEURI");
 
 	}
@@ -35,6 +37,12 @@ public class ResourcesURLsReader extends ConfigurationReader {
 		logger.info("Jokes endpoint url is loading...");
 		String getJokesResourceURI = this.getJokesResourceURI;
 		return getJokesResourceURI;
+	}
+	
+	public String getRandomJokesResourceURI() {
+		logger.info("Jokes endpoint url is loading...");
+		String getRandomJokesResourceURI = this.getRandomJokesResourceURI;
+		return getRandomJokesResourceURI;
 	}
 
 }

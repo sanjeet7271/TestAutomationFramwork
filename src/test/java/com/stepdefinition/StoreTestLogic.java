@@ -1,10 +1,8 @@
 package com.stepdefinition;
 
 import static org.junit.Assert.assertEquals;
-
 import org.apache.log4j.Logger;
 import org.junit.Assert;
-
 import com.constants.HttpMethods;
 import com.restassuredmethods.RestAssuredMethods;
 import io.cucumber.java.Before;
