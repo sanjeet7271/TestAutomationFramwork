@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.stepdefinition.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.814 s - in com.stepdefinition.TestRunner
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.594 s - in com.stepdefinition.TestRunner

@@ -23,5 +23,5 @@
 4. Open `/TestAutomationFramework/` and open cmd in this locaion and type in command "mvn test"<br>
 
 ## To view Report 
-1. Go to the root directory under `/test-output/emailable-report.html`
-2. All code coverage reports are saved under `/target/jacoco-ut/` 
+1. Open project and got to: `/target/cucumber-report/cucumber.html`
+2. Added word file to run project with screenshot

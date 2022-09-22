@@ -824,3 +824,130 @@
 2022-09-22 21:35:04 INFO  StoreTestLogic:156 - validation started for default Locale
 2022-09-22 21:35:04 INFO  StoreTestLogic:157 - en
 2022-09-22 21:35:04 INFO  StoreTestLogic:159 - validation is completed with Default Locale successful.
+2022-09-22 21:58:03 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:03 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:03 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:03 INFO  ConfigurationReader:52 - Jokes endpoint url is loading...
+2022-09-22 21:58:03 INFO  ConfigurationReader:40 - Random Jokes base url is loading...
+2022-09-22 21:58:05 INFO  RandomJokesLogic:27 - Expected!, successfully response recieved.
+2022-09-22 21:58:05 INFO  RandomJokesLogic:39 - Expected!, status code is successfully validated.
+2022-09-22 21:58:05 INFO  RandomJokesLogic:50 - Expected!, Response is deserialized successfully.
+2022-09-22 21:58:05 INFO  RandomJokesLogic:51 - RandomJokesDTOs [categories=[], createdAt=2020-01-05 13:42:19.897976, iconUrl=https://assets.chucknorris.host/img/avatar/chuck-norris.png, id=EQpbOxLfTD27fNdVY9UAZA, updatedAt=2020-01-05 13:42:19.897976, url=https://api.chucknorris.io/jokes/EQpbOxLfTD27fNdVY9UAZA, value=Chuck Norris demanded he be awarded a Nobel Prize or else he would destroy the world. To appease the great destroyer, the Nobel Committee awarded the Nobel Peace Prize for 1947 to Chuck Norris and Gandhi. Chuck Norris killed Gandhi the next day.]
+2022-09-22 21:58:06 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:06 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:06 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:06 INFO  ConfigurationReader:46 - Jokes endpoint url is loading...
+2022-09-22 21:58:06 INFO  ConfigurationReader:40 - Random Jokes base url is loading...
+2022-09-22 21:58:07 INFO  RandomJokesLogic:63 - Expected!, successfully response recieved.
+2022-09-22 21:58:07 INFO  RandomJokesLogic:75 - Expected!, status code is successfully validated.
+2022-09-22 21:58:07 INFO  RandomJokesLogic:87 - Expected!, ID is validated successfully.
+2022-09-22 21:58:07 INFO  RandomJokesLogic:99 - Expected!, joke is validated successfully.
+2022-09-22 21:58:07 INFO  RandomJokesLogic:111 - Expected!, URL is validated successfully.
+2022-09-22 21:58:07 INFO  RandomJokesLogic:123 - Expected!, Created date is validated successfully.
+2022-09-22 21:58:07 INFO  RandomJokesLogic:135 - Expected!, Created date is validated successfully.
+2022-09-22 21:58:07 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:07 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:08 INFO  StoreTestLogic:42 - Expected!, successfully response recieved.
+2022-09-22 21:58:08 INFO  StoreTestLogic:54 - Expected!, status code is successfully validated.
+2022-09-22 21:58:08 INFO  StoreTestLogic:65 - Expected!, Response is deserialized successfully.
+2022-09-22 21:58:08 INFO  StoreTestLogic:66 - StoreJson [data=Data [store=Store [alternativeLocales=[en], code=de, defaultCurrency=EUR, defaultLocale=de]]]
+2022-09-22 21:58:08 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:08 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:09 INFO  StoreTestLogic:82 - Expected!, successfully response recieved.
+2022-09-22 21:58:09 INFO  StoreTestLogic:94 - Expected!, status code is successfully validated.
+2022-09-22 21:58:09 INFO  StoreTestLogic:105 - validation started for currency.
+2022-09-22 21:58:09 INFO  StoreTestLogic:106 - EUR
+2022-09-22 21:58:09 INFO  StoreTestLogic:108 - validation is completed with currency successful.
+2022-09-22 21:58:09 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:09 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:10 INFO  StoreTestLogic:82 - Expected!, successfully response recieved.
+2022-09-22 21:58:10 INFO  StoreTestLogic:94 - Expected!, status code is successfully validated.
+2022-09-22 21:58:10 INFO  StoreTestLogic:105 - validation started for currency.
+2022-09-22 21:58:10 INFO  StoreTestLogic:106 - EUR
+2022-09-22 21:58:10 INFO  StoreTestLogic:108 - validation is completed with currency successful.
+2022-09-22 21:58:10 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:10 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:11 INFO  StoreTestLogic:82 - Expected!, successfully response recieved.
+2022-09-22 21:58:11 INFO  StoreTestLogic:94 - Expected!, status code is successfully validated.
+2022-09-22 21:58:11 INFO  StoreTestLogic:105 - validation started for currency.
+2022-09-22 21:58:11 INFO  StoreTestLogic:106 - EUR
+2022-09-22 21:58:11 INFO  StoreTestLogic:108 - validation is completed with currency successful.
+2022-09-22 21:58:11 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:11 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:12 INFO  StoreTestLogic:82 - Expected!, successfully response recieved.
+2022-09-22 21:58:12 INFO  StoreTestLogic:94 - Expected!, status code is successfully validated.
+2022-09-22 21:58:12 INFO  StoreTestLogic:105 - validation started for currency.
+2022-09-22 21:58:12 INFO  StoreTestLogic:106 - EUR
+2022-09-22 21:58:12 INFO  StoreTestLogic:108 - validation is completed with currency successful.
+2022-09-22 21:58:12 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:12 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:13 INFO  StoreTestLogic:82 - Expected!, successfully response recieved.
+2022-09-22 21:58:13 INFO  StoreTestLogic:94 - Expected!, status code is successfully validated.
+2022-09-22 21:58:13 INFO  StoreTestLogic:105 - validation started for currency.
+2022-09-22 21:58:13 INFO  StoreTestLogic:106 - EUR
+2022-09-22 21:58:13 INFO  StoreTestLogic:108 - validation is completed with currency successful.
+2022-09-22 21:58:13 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:13 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:14 INFO  StoreTestLogic:124 - Expected!, successfully response recieved.
+2022-09-22 21:58:14 INFO  StoreTestLogic:136 - Expected!, status code is successfully validated.
+2022-09-22 21:58:14 INFO  StoreTestLogic:148 - validation started for currency.
+2022-09-22 21:58:14 INFO  StoreTestLogic:149 - EUR
+2022-09-22 21:58:14 INFO  StoreTestLogic:151 - validation is completed with currency successful.
+2022-09-22 21:58:14 INFO  StoreTestLogic:152 - validation started for Alternative Locales.
+2022-09-22 21:58:14 INFO  StoreTestLogic:153 - [en]
+2022-09-22 21:58:14 INFO  StoreTestLogic:155 - validation is completed with Alternative Locales successful.
+2022-09-22 21:58:14 INFO  StoreTestLogic:156 - validation started for default Locale
+2022-09-22 21:58:14 INFO  StoreTestLogic:157 - de
+2022-09-22 21:58:14 INFO  StoreTestLogic:159 - validation is completed with Default Locale successful.
+2022-09-22 21:58:14 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:14 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:15 INFO  StoreTestLogic:124 - Expected!, successfully response recieved.
+2022-09-22 21:58:15 INFO  StoreTestLogic:136 - Expected!, status code is successfully validated.
+2022-09-22 21:58:15 INFO  StoreTestLogic:148 - validation started for currency.
+2022-09-22 21:58:15 INFO  StoreTestLogic:149 - GBP
+2022-09-22 21:58:15 INFO  StoreTestLogic:151 - validation is completed with currency successful.
+2022-09-22 21:58:15 INFO  StoreTestLogic:152 - validation started for Alternative Locales.
+2022-09-22 21:58:15 INFO  StoreTestLogic:153 - [en]
+2022-09-22 21:58:15 INFO  StoreTestLogic:155 - validation is completed with Alternative Locales successful.
+2022-09-22 21:58:15 INFO  StoreTestLogic:156 - validation started for default Locale
+2022-09-22 21:58:15 INFO  StoreTestLogic:157 - en
+2022-09-22 21:58:15 INFO  StoreTestLogic:159 - validation is completed with Default Locale successful.
+2022-09-22 21:58:15 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:15 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:16 INFO  StoreTestLogic:124 - Expected!, successfully response recieved.
+2022-09-22 21:58:16 INFO  StoreTestLogic:136 - Expected!, status code is successfully validated.
+2022-09-22 21:58:16 INFO  StoreTestLogic:148 - validation started for currency.
+2022-09-22 21:58:16 INFO  StoreTestLogic:149 - EUR
+2022-09-22 21:58:16 INFO  StoreTestLogic:151 - validation is completed with currency successful.
+2022-09-22 21:58:16 INFO  StoreTestLogic:152 - validation started for Alternative Locales.
+2022-09-22 21:58:16 INFO  StoreTestLogic:153 - [en]
+2022-09-22 21:58:16 INFO  StoreTestLogic:155 - validation is completed with Alternative Locales successful.
+2022-09-22 21:58:16 INFO  StoreTestLogic:156 - validation started for default Locale
+2022-09-22 21:58:16 INFO  StoreTestLogic:157 - de
+2022-09-22 21:58:16 INFO  StoreTestLogic:159 - validation is completed with Default Locale successful.
+2022-09-22 21:58:16 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:16 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:17 INFO  StoreTestLogic:124 - Expected!, successfully response recieved.
+2022-09-22 21:58:17 INFO  StoreTestLogic:136 - Expected!, status code is successfully validated.
+2022-09-22 21:58:17 INFO  StoreTestLogic:148 - validation started for currency.
+2022-09-22 21:58:17 INFO  StoreTestLogic:149 - EUR
+2022-09-22 21:58:17 INFO  StoreTestLogic:151 - validation is completed with currency successful.
+2022-09-22 21:58:17 INFO  StoreTestLogic:152 - validation started for Alternative Locales.
+2022-09-22 21:58:17 INFO  StoreTestLogic:153 - [en]
+2022-09-22 21:58:17 INFO  StoreTestLogic:155 - validation is completed with Alternative Locales successful.
+2022-09-22 21:58:17 INFO  StoreTestLogic:156 - validation started for default Locale
+2022-09-22 21:58:17 INFO  StoreTestLogic:157 - nl
+2022-09-22 21:58:17 INFO  StoreTestLogic:159 - validation is completed with Default Locale successful.
+2022-09-22 21:58:17 INFO  ConfigurationReader:36 - Configuration file is successfully loaded.
+2022-09-22 21:58:17 INFO  ConfigurationReader:34 - Store base url is loading...
+2022-09-22 21:58:18 INFO  StoreTestLogic:124 - Expected!, successfully response recieved.
+2022-09-22 21:58:18 INFO  StoreTestLogic:136 - Expected!, status code is successfully validated.
+2022-09-22 21:58:18 INFO  StoreTestLogic:148 - validation started for currency.
+2022-09-22 21:58:18 INFO  StoreTestLogic:149 - USD
+2022-09-22 21:58:18 INFO  StoreTestLogic:151 - validation is completed with currency successful.
+2022-09-22 21:58:18 INFO  StoreTestLogic:152 - validation started for Alternative Locales.
+2022-09-22 21:58:18 INFO  StoreTestLogic:153 - [en]
+2022-09-22 21:58:18 INFO  StoreTestLogic:155 - validation is completed with Alternative Locales successful.
+2022-09-22 21:58:18 INFO  StoreTestLogic:156 - validation started for default Locale
+2022-09-22 21:58:18 INFO  StoreTestLogic:157 - en
+2022-09-22 21:58:18 INFO  StoreTestLogic:159 - validation is completed with Default Locale successful.
