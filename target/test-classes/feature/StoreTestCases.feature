@@ -2,7 +2,36 @@ Feature: End to End Tests for Store API
   Description: the purpose of the test case is to cover all currency
 
   @SmokeTest
-  Scenario: user is getting response from API schema
+  Scenario: users are searching for store
     Given send the request to the store
-    Then validate the status code from response
-    And validate the currency to corresponding store code
+    Then verify the status code from response
+    And print the reponse from store
+
+  @SmokeTest
+  Scenario Outline: users are searching for store and checking store currency
+    Given send the request to the store with store code <storeCode>
+    Then verify the status code
+    And verify each store is having currency
+
+    Examples: 
+      | storeCode |
+      | AT        |
+      | DE        |
+      | ES        |
+      | NL        |
+      | US        |
+
+  @SmokeTest
+  Scenario Outline: users are searching for store and checking all details
+    Given send the request to the store with id <ID> and store code <storeCode>
+    Then verify the response status code
+    And verify each store is having alternative Locales <alternativeLocales> default currency <defaultCurrency> and default locale <defaultLocale> 
+
+    Examples: 
+      | ID | storeCode | alternativeLocales | defaultCurrency | defaultLocale |
+      |  1 | DE        | en                 | EUR             | de            |
+      |  3 | UK        | en                 | GPB             | en            |
+      |  4 | AT        | en                 | EUR             | de            |
+      |  5 | NL        | en                 | EUR             | nl            |
+      |  9 | CAT       |                    | EUR             | de            |
+      | 14 | US        | en                 | USD             | en            |

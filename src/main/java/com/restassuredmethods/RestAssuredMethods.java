@@ -1,6 +1,7 @@
 package com.restassuredmethods;
 
 import com.constants.HttpMethods;
+import com.graphqldto.GraphQLQuery;
 import com.resourcesreader.ResourcesURLsReader;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -10,7 +11,7 @@ public class RestAssuredMethods {
 	ResourcesURLsReader resource = new ResourcesURLsReader();
 	Response response = null;
 
-	public Response restAssuredMethods(String requestType, String queryBody, String request) {
+	public Response restAssuredMethods(String requestType, GraphQLQuery queryBody, String request) {
 		switch (requestType) {
 		case HttpMethods.GET:
 			RestAssured.baseURI = resource.getJokesBaseURI();
@@ -27,8 +28,8 @@ public class RestAssuredMethods {
 			RestAssured.baseURI = resource.getStoreBaseURI();
 			response = RestAssured.given()
 					.body(queryBody)
-					.log().all()
 					.contentType(ContentType.JSON)
+					.log().all()
 					.when()
 					.post(request)
 					.then().log().all()

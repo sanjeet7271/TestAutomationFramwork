@@ -16,7 +16,6 @@ Feature: End to End Tests for Random Jokes API
     And verify response url <url>
     And verify response created at <created_at>
     Then verify response updated at <updated_at>
-    
 
     Examples: 
       | id                     | value                                          | url                                                     | created_at                 | updated_at                 |

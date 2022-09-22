@@ -44,5 +44,4 @@ public class ResourcesURLsReader extends ConfigurationReader {
 		String getRandomJokesResourceURI = this.getRandomJokesResourceURI;
 		return getRandomJokesResourceURI;
 	}
-
 }

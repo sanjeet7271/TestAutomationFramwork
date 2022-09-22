@@ -1,306 +1,76 @@
-2022-09-21 13:55:49 INFO  StoreTestLogic:39 - successfully validated  status code.
-2022-09-21 14:18:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 14:57:59 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 14:57:59 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 14:57:59 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 14:57:59 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 14:57:59 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 14:58:02 INFO  RandomJokesLogic:23 - successfully response recieved.
-2022-09-21 14:58:02 INFO  RandomJokesLogic:35 - successfully validated  status code.
-2022-09-21 14:58:02 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 14:58:02 INFO  ConfigurationReader:23 - Store base url is loading...
-2022-09-21 14:58:04 INFO  StoreTestLogic:34 - successfully response recieved.
-2022-09-21 14:58:04 INFO  StoreTestLogic:46 - successfully validated  status code.
-2022-09-21 15:43:02 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:43:02 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:43:02 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:43:02 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 15:43:02 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 15:43:04 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 15:43:04 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 15:44:09 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:44:09 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:44:09 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:44:09 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 15:44:09 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 15:44:11 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 15:44:11 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 15:48:15 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:48:15 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:48:15 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:48:15 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 15:48:15 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 15:48:17 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 15:48:17 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 15:52:09 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:52:09 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:52:09 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:52:09 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 15:52:09 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 15:52:11 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 15:52:11 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 15:53:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:53:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:53:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:53:44 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 15:53:44 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 15:53:46 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 15:53:46 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 15:56:13 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:56:13 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:56:13 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 15:56:13 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 15:56:13 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 15:56:16 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 15:56:16 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 16:01:21 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:01:21 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:01:21 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:01:21 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 16:01:21 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 16:01:23 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 16:01:23 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 16:04:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:04:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:04:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:04:19 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 16:04:19 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 16:04:21 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 16:04:21 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 16:05:12 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:05:12 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:05:12 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:05:12 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 16:05:12 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 16:05:14 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 16:05:14 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 16:06:56 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:06:56 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:06:56 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:06:56 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 16:06:56 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 16:06:58 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 16:06:58 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 16:26:28 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:26:28 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:26:28 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:26:28 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 16:26:28 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 16:26:30 INFO  RandomJokesLogic:28 - successfully response recieved.
-2022-09-21 16:26:30 INFO  RandomJokesLogic:40 - successfully validated  status code.
-2022-09-21 16:40:30 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:40:30 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:40:30 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:40:30 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 16:40:30 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 16:40:33 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 16:40:33 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 16:40:33 INFO  RandomJokesLogic:53 - successfully deserialized response.
-2022-09-21 16:45:31 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:45:31 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:45:31 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:45:31 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 16:45:31 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 16:45:34 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 16:45:34 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 16:45:34 INFO  RandomJokesLogic:53 - successfully deserialized response.
-2022-09-21 16:45:34 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:45:34 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:45:34 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:45:34 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:45:34 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:55:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:55:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:55:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 16:55:03 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 16:55:03 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 16:55:05 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 16:55:05 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 16:55:05 INFO  RandomJokesLogic:53 - successfully deserialized response.
-2022-09-21 16:55:05 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:38:50 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:38:50 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:38:50 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:38:50 INFO  ConfigurationReader:35 - Jokes endpoint url is loading...
-2022-09-21 17:38:50 INFO  ConfigurationReader:29 - Random Jokes base url is loading...
-2022-09-21 17:38:52 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 17:38:52 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 17:38:52 INFO  RandomJokesLogic:53 - successfully deserialized response.
-2022-09-21 17:38:52 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:46:47 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:46:47 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:46:47 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:46:47 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 17:46:47 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 17:46:49 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 17:46:49 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 17:46:49 INFO  RandomJokesLogic:52 - successfully deserialized response.
-2022-09-21 17:46:49 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:47:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:47:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:47:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:47:44 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 17:47:44 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 17:47:46 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 17:47:46 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 17:47:47 INFO  RandomJokesLogic:52 - successfully deserialized response.
-2022-09-21 17:47:47 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:55:08 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:55:08 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:55:08 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 17:55:08 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 17:55:08 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 17:55:11 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 17:55:11 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 17:55:11 INFO  RandomJokesLogic:52 - successfully deserialized response.
-2022-09-21 17:55:11 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:53:55 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:53:55 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:53:55 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:53:55 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 20:53:55 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 20:53:57 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 20:53:57 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 20:53:58 INFO  RandomJokesLogic:52 - successfully deserialized response.
-2022-09-21 20:53:58 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:53:58 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:53:58 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:53:58 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 20:53:58 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 20:53:59 INFO  RandomJokesLogic:65 - successfully response recieved.
-2022-09-21 20:53:59 INFO  RandomJokesLogic:77 - successfully validated  status code.
-2022-09-21 20:55:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:55:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:55:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:55:03 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 20:55:03 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 20:55:05 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 20:55:05 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 20:55:05 INFO  RandomJokesLogic:52 - successfully deserialized response.
-2022-09-21 20:55:05 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:55:05 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:55:05 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:55:05 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 20:55:05 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 20:55:06 INFO  RandomJokesLogic:65 - successfully response recieved.
-2022-09-21 20:55:06 INFO  RandomJokesLogic:77 - successfully validated  status code.
-2022-09-21 20:57:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:57:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:57:44 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:57:44 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 20:57:44 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 20:57:47 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 20:57:47 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 20:57:47 INFO  RandomJokesLogic:52 - successfully deserialized response.
-2022-09-21 20:57:47 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:57:47 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:57:47 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:57:47 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 20:57:47 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 20:57:48 INFO  RandomJokesLogic:65 - successfully response recieved.
-2022-09-21 20:57:48 INFO  RandomJokesLogic:77 - successfully validated  status code.
-2022-09-21 20:59:02 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:59:02 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:59:02 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:59:02 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 20:59:02 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 20:59:04 INFO  RandomJokesLogic:29 - successfully response recieved.
-2022-09-21 20:59:04 INFO  RandomJokesLogic:41 - successfully validated  status code.
-2022-09-21 20:59:04 INFO  RandomJokesLogic:52 - successfully deserialized response.
-2022-09-21 20:59:04 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:59:04 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:59:04 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 20:59:04 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 20:59:04 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 20:59:05 INFO  RandomJokesLogic:65 - successfully response recieved.
-2022-09-21 20:59:05 INFO  RandomJokesLogic:77 - successfully validated  status code.
-2022-09-21 21:07:32 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:07:32 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:07:32 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:07:32 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 21:07:32 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:07:34 INFO  RandomJokesLogic:25 - successfully response recieved.
-2022-09-21 21:07:34 INFO  RandomJokesLogic:37 - successfully validated  status code.
-2022-09-21 21:07:34 INFO  RandomJokesLogic:48 - successfully deserialized response.
-2022-09-21 21:07:34 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:07:34 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:07:34 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:07:34 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 21:07:34 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:07:36 INFO  RandomJokesLogic:61 - successfully response recieved.
-2022-09-21 21:07:36 INFO  RandomJokesLogic:73 - successfully validated  status code.
-2022-09-21 21:13:25 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:13:25 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:13:25 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:13:25 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 21:13:25 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:13:27 INFO  RandomJokesLogic:25 - successfully response recieved.
-2022-09-21 21:13:27 INFO  RandomJokesLogic:37 - successfully validated  status code.
-2022-09-21 21:13:27 INFO  RandomJokesLogic:48 - successfully deserialized response.
-2022-09-21 21:13:27 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:13:27 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:13:27 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:13:27 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 21:13:27 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:13:28 INFO  RandomJokesLogic:61 - successfully response recieved.
-2022-09-21 21:13:28 INFO  RandomJokesLogic:73 - successfully validated  status code.
-2022-09-21 21:17:24 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:17:24 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:17:24 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:17:24 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 21:17:24 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:17:26 INFO  RandomJokesLogic:25 - successfully response recieved.
-2022-09-21 21:17:26 INFO  RandomJokesLogic:37 - successfully validated  status code.
-2022-09-21 21:17:26 INFO  RandomJokesLogic:48 - successfully deserialized response.
-2022-09-21 21:17:26 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:17:26 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:17:26 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:17:26 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 21:17:26 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:17:27 INFO  RandomJokesLogic:61 - successfully response recieved.
-2022-09-21 21:17:27 INFO  RandomJokesLogic:73 - successfully validated  status code.
-2022-09-21 21:18:01 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:18:01 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:18:01 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:18:01 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 21:18:01 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:18:02 INFO  RandomJokesLogic:25 - successfully response recieved.
-2022-09-21 21:18:02 INFO  RandomJokesLogic:37 - successfully validated  status code.
-2022-09-21 21:18:03 INFO  RandomJokesLogic:48 - successfully deserialized response.
-2022-09-21 21:18:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:18:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:18:03 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:18:03 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 21:18:03 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:18:04 INFO  RandomJokesLogic:61 - successfully response recieved.
-2022-09-21 21:18:04 INFO  RandomJokesLogic:73 - successfully validated  status code.
-2022-09-21 21:22:22 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:22:22 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:22:22 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:22:22 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 21:22:22 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:22:24 INFO  RandomJokesLogic:25 - successfully response recieved.
-2022-09-21 21:22:24 INFO  RandomJokesLogic:37 - successfully validated  status code.
-2022-09-21 21:22:24 INFO  RandomJokesLogic:48 - successfully deserialized response.
-2022-09-21 21:22:24 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:22:24 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:22:24 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:22:24 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 21:22:24 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:22:25 INFO  RandomJokesLogic:61 - successfully response recieved.
-2022-09-21 21:22:25 INFO  RandomJokesLogic:73 - successfully validated  status code.
-2022-09-21 21:23:04 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:23:04 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:23:04 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:23:04 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
-2022-09-21 21:23:04 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:23:06 INFO  RandomJokesLogic:25 - successfully response recieved.
-2022-09-21 21:23:06 INFO  RandomJokesLogic:37 - successfully validated  status code.
-2022-09-21 21:23:06 INFO  RandomJokesLogic:48 - successfully deserialized response.
-2022-09-21 21:23:06 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:23:06 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:23:06 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
-2022-09-21 21:23:06 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
-2022-09-21 21:23:06 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
-2022-09-21 21:23:07 INFO  RandomJokesLogic:61 - successfully response recieved.
-2022-09-21 21:23:07 INFO  RandomJokesLogic:73 - successfully validated  status code.
+2022-09-22 11:01:06 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:06 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:06 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:06 INFO  ConfigurationReader:43 - Jokes endpoint url is loading...
+2022-09-22 11:01:06 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
+2022-09-22 11:01:09 INFO  RandomJokesLogic:27 - Expected!, successfully response recieved.
+2022-09-22 11:01:09 INFO  RandomJokesLogic:39 - Expected!, status code is successfully validated.
+2022-09-22 11:01:10 INFO  RandomJokesLogic:50 - Expected!, Response is deserialized successfully.
+2022-09-22 11:01:10 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:10 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:10 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:10 INFO  ConfigurationReader:37 - Jokes endpoint url is loading...
+2022-09-22 11:01:10 INFO  ConfigurationReader:31 - Random Jokes base url is loading...
+2022-09-22 11:01:11 INFO  RandomJokesLogic:63 - Expected!, successfully response recieved.
+2022-09-22 11:01:11 INFO  RandomJokesLogic:75 - Expected!, status code is successfully validated.
+2022-09-22 11:01:11 INFO  RandomJokesLogic:87 - Expected!, ID is validated successfully.
+2022-09-22 11:01:11 INFO  RandomJokesLogic:99 - Expected!, joke is validated successfully.
+2022-09-22 11:01:11 INFO  RandomJokesLogic:111 - Expected!, URL is validated successfully.
+2022-09-22 11:01:11 INFO  RandomJokesLogic:123 - Expected!, Created date is validated successfully.
+2022-09-22 11:01:11 INFO  RandomJokesLogic:135 - Expected!, Created date is validated successfully.
+2022-09-22 11:01:11 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:11 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 11:01:14 INFO  StoreTestLogic:47 - Expected!, successfully response recieved.
+2022-09-22 11:01:14 INFO  StoreTestLogic:59 - Expected!, status code is successfully validated.
+2022-09-22 11:01:15 INFO  StoreTestLogic:70 - Expected!, Response is deserialized successfully.
+2022-09-22 11:01:15 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:15 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 11:01:16 INFO  StoreTestLogic:87 - Expected!, successfully response recieved.
+2022-09-22 11:01:16 INFO  StoreTestLogic:99 - Expected!, status code is successfully validated.
+2022-09-22 11:01:16 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:16 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 11:01:17 INFO  StoreTestLogic:87 - Expected!, successfully response recieved.
+2022-09-22 11:01:17 INFO  StoreTestLogic:99 - Expected!, status code is successfully validated.
+2022-09-22 11:01:17 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:17 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 11:01:18 INFO  StoreTestLogic:87 - Expected!, successfully response recieved.
+2022-09-22 11:01:18 INFO  StoreTestLogic:99 - Expected!, status code is successfully validated.
+2022-09-22 11:01:18 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:18 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 11:01:19 INFO  StoreTestLogic:87 - Expected!, successfully response recieved.
+2022-09-22 11:01:19 INFO  StoreTestLogic:99 - Expected!, status code is successfully validated.
+2022-09-22 11:01:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 11:01:19 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 11:01:20 INFO  StoreTestLogic:87 - Expected!, successfully response recieved.
+2022-09-22 11:01:20 INFO  StoreTestLogic:99 - Expected!, status code is successfully validated.
+2022-09-22 16:19:10 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:10 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 16:19:13 INFO  StoreTestLogic:41 - Expected!, successfully response recieved.
+2022-09-22 16:19:13 INFO  StoreTestLogic:53 - Expected!, status code is successfully validated.
+2022-09-22 16:19:13 INFO  StoreTestLogic:64 - Expected!, Response is deserialized successfully.
+2022-09-22 16:19:13 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:13 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 16:19:14 INFO  StoreTestLogic:81 - Expected!, successfully response recieved.
+2022-09-22 16:19:14 INFO  StoreTestLogic:93 - Expected!, status code is successfully validated.
+2022-09-22 16:19:14 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:14 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 16:19:16 INFO  StoreTestLogic:81 - Expected!, successfully response recieved.
+2022-09-22 16:19:16 INFO  StoreTestLogic:93 - Expected!, status code is successfully validated.
+2022-09-22 16:19:16 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:16 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 16:19:17 INFO  StoreTestLogic:81 - Expected!, successfully response recieved.
+2022-09-22 16:19:17 INFO  StoreTestLogic:93 - Expected!, status code is successfully validated.
+2022-09-22 16:19:17 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:17 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 16:19:18 INFO  StoreTestLogic:81 - Expected!, successfully response recieved.
+2022-09-22 16:19:18 INFO  StoreTestLogic:93 - Expected!, status code is successfully validated.
+2022-09-22 16:19:18 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:18 INFO  ConfigurationReader:25 - Store base url is loading...
+2022-09-22 16:19:19 INFO  StoreTestLogic:81 - Expected!, successfully response recieved.
+2022-09-22 16:19:19 INFO  StoreTestLogic:93 - Expected!, status code is successfully validated.
+2022-09-22 16:19:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.
+2022-09-22 16:19:19 INFO  ConfigurationReader:24 - Configuration file is successfully loaded.

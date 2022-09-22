@@ -28,5 +28,4 @@ public class ConfigurationReader {
 			logger.error("Properties file not found.");
 		}
 	}
-
 }
