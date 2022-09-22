@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import com.constants.HttpMethods;
 import com.constants.HttpStatusCodes;
+import com.constants.TestCaseConstants;
 import com.graphqldto.GraphQLQuery;
 import com.graphqldto.QueryVariables;
 import com.restassuredmethods.RestAssuredMethods;
@@ -34,8 +35,8 @@ public class StoreTestLogic {
 		try {
 			query.setQuery(
 					"query($id:ID, $storeCode:String){store(id:$id,storeCode:$storeCode){ alternativeLocales code defaultCurrency defaultLocale } }");
-			variables.setId(1);
-			variables.setStoreCode("US");
+			variables.setId(TestCaseConstants.ID);
+			variables.setStoreCode(TestCaseConstants.CURRENCY);
 			query.setVariables(variables);
 			response = restCall.restAssuredMethods(HttpMethods.POST, query, "");
 			logger.info("Expected!, successfully response recieved.");
@@ -62,7 +63,7 @@ public class StoreTestLogic {
 		try {
 			StoreJson storeDetails = response.as(StoreJson.class);
 			logger.info("Expected!, Response is deserialized successfully.");
-			System.out.println("Print Deserialize response : " + storeDetails.toString());
+			logger.info(storeDetails.toString());
 		} catch (Exception e) {
 			logger.error("failed " + e);
 			Assert.fail("Error!, Response is not deserialized");
@@ -74,7 +75,7 @@ public class StoreTestLogic {
 		try {
 			query.setQuery(
 					"query($id:ID, $storeCode:String){store(id:$id,storeCode:$storeCode){ alternativeLocales code defaultCurrency defaultLocale } }");
-			variables.setId(1);
+			variables.setId(TestCaseConstants.ID);
 			variables.setStoreCode(storeCode);
 			query.setVariables(variables);
 			response = restCall.restAssuredMethods(HttpMethods.POST, query, "");
@@ -99,12 +100,20 @@ public class StoreTestLogic {
 
 	@Then("^verify each store is having currency$")
 	public void verifyEachStoreIsHavingCurrency() {
-		StoreJson storeDetails = response.as(StoreJson.class);
-		assertEquals(storeDetails.getData().getStore().getDefaultCurrency(), "EUR");
+		try {
+			StoreJson storeDetails = response.as(StoreJson.class);
+			logger.info("validation started for currency.");
+			logger.info(storeDetails.getData().getStore().getDefaultCurrency());
+			assertEquals(storeDetails.getData().getStore().getDefaultCurrency(), TestCaseConstants.CURRENCY);
+			logger.info("validation is completed with currency successful.");
+		} catch (AssertionError e) {
+			logger.error("failed " + e);
+			Assert.fail("Error!, status code is not matched.");
+		}
 	}
-	
+
 	@Given("^send the request to the store with id (.*) and store code (.*)$")
-	public void send_the_request_to_the_store_with_id_and_store_code_de(int id, String storeCode) {
+	public void sendRequestToStoreWithIdAndStoreCode(int id, String storeCode) {
 		try {
 			query.setQuery(
 					"query($id:ID, $storeCode:String){store(id:$id,storeCode:$storeCode){ alternativeLocales code defaultCurrency defaultLocale } }");
@@ -120,7 +129,7 @@ public class StoreTestLogic {
 	}
 
 	@Then("verify the response status code")
-	public void verify_the_response_status_code() {
+	public void verifyTheResponseStatusCode() {
 		try {
 			int actualStatusCode = response.getStatusCode();
 			assertEquals(actualStatusCode, HttpStatusCodes.RESPONSE_STATUS_CODE_200);
@@ -131,9 +140,26 @@ public class StoreTestLogic {
 		}
 	}
 
-	@Then("verify each store is having alternative Locales en default currency EUR and default locale de")
-	public void verify_each_store_is_having_alternative_locales_en_default_currency_eur_and_default_locale_de() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("^verify each store is having alternative Locales (.*) default currency (.*) and default locale (.*)$")
+	public void verifyEachStoreIsHavingAllDetails(String alternativeLocales, String defaultCurrency,
+			String defaultLocale) {
+		try {
+			StoreJson storeDetails = response.as(StoreJson.class);
+			logger.info("validation started for currency.");
+			logger.info(storeDetails.getData().getStore().getDefaultCurrency());
+			assertEquals(storeDetails.getData().getStore().getDefaultCurrency(), defaultCurrency);
+			logger.info("validation is completed with currency successful.");
+			logger.info("validation started for Alternative Locales.");
+			logger.info(storeDetails.getData().getStore().getAlternativeLocales());
+			assertEquals(storeDetails.getData().getStore().getAlternativeLocales().get(0), alternativeLocales);
+			logger.info("validation is completed with Alternative Locales successful.");
+			logger.info("validation started for default Locale");
+			logger.info(storeDetails.getData().getStore().getDefaultLocale());
+			assertEquals(storeDetails.getData().getStore().getDefaultLocale(), defaultLocale);
+			logger.info("validation is completed with Default Locale successful.");
+		} catch (AssertionError e) {
+			logger.error("failed " + e);
+			Assert.fail("Error!, status code is not matched.");
+		}
 	}
 }

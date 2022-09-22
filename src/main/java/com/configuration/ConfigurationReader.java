@@ -10,9 +10,21 @@ public class ConfigurationReader {
 	public Properties prop;
 	FileInputStream input = null;
 	public static Logger logger = Logger.getLogger(ConfigurationReader.class);
-
+	private static ConfigurationReader instance = null;
+	
+	/*
+	 * protected ConfigurationReader() { }
+	 */
+	
 	public ConfigurationReader() {
 		configurationReader();
+	}
+
+	public static ConfigurationReader getInstance() {
+		if (null == instance) {
+			instance = new ConfigurationReader();
+		}
+		return instance;
 	}
 
 	public void configurationReader() {

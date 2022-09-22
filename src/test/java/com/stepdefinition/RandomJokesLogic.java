@@ -48,7 +48,7 @@ public class RandomJokesLogic {
 		try {
 			RandomJokesDTOs randomJokesDetails = response.as(RandomJokesDTOs.class);
 			logger.info("Expected!, Response is deserialized successfully.");
-			System.out.println("Deserialize response is : " + randomJokesDetails.toString());
+			logger.info(randomJokesDetails.toString());
 		} catch (AssertionError e) {
 			logger.error("failed " + e);
 			Assert.fail("Error!, Response is not deserialized");

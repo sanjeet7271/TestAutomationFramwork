@@ -25,13 +25,12 @@ Feature: End to End Tests for Store API
   Scenario Outline: users are searching for store and checking all details
     Given send the request to the store with id <ID> and store code <storeCode>
     Then verify the response status code
-    And verify each store is having alternative Locales <alternativeLocales> default currency <defaultCurrency> and default locale <defaultLocale> 
+    And verify each store is having alternative Locales <alternativeLocales> default currency <defaultCurrency> and default locale <defaultLocale>
 
     Examples: 
       | ID | storeCode | alternativeLocales | defaultCurrency | defaultLocale |
       |  1 | DE        | en                 | EUR             | de            |
-      |  3 | UK        | en                 | GPB             | en            |
+      |  3 | UK        | en                 | GBP             | en            |
       |  4 | AT        | en                 | EUR             | de            |
       |  5 | NL        | en                 | EUR             | nl            |
-      |  9 | CAT       |                    | EUR             | de            |
       | 14 | US        | en                 | USD             | en            |

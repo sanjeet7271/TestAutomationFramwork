@@ -8,10 +8,19 @@ public class ResourcesURLsReader extends ConfigurationReader {
 	private String getJokesBaseURI;
 	private String getJokesResourceURI;
 	private String getRandomJokesResourceURI;
+	private static ResourcesURLsReader instance = null;
 
 	public ResourcesURLsReader() {
 		setConfig();
 	}
+	
+	public static ResourcesURLsReader getInstance() {
+		if (null == instance) {
+			instance = new ResourcesURLsReader();
+		}
+		return instance;
+	}
+
 
 	public void setConfig() {
 		this.getStoreBaseURI = prop.getProperty("STORE_URL");
