@@ -24,4 +24,5 @@
 
 ## To view Report 
 1. Open project and got to: `/target/cucumber-report/cucumber.html`
-2. Added word file to run project with screenshot
+2. Check logs also :`/TestAutomationFramework/`
+3. Added word file to run project with screenshot
