@@ -1,5 +1,10 @@
 package com.constants;
 
+/**
+ * 
+ * @author Sanjeet Kumar Pandit
+ *
+ */
 public class HttpMethods {
 	public static final String GET = "get";
 	public static final String POST = "post";

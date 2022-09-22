@@ -5,17 +5,18 @@ import java.io.IOException;
 import java.util.Properties;
 import org.apache.log4j.Logger;
 
+/**
+ * 
+ * @author Sanjeet Kumar Pandit
+ *
+ */
 
 public class ConfigurationReader {
 	public Properties prop;
 	FileInputStream input = null;
 	public static Logger logger = Logger.getLogger(ConfigurationReader.class);
 	private static ConfigurationReader instance = null;
-	
-	/*
-	 * protected ConfigurationReader() { }
-	 */
-	
+
 	public ConfigurationReader() {
 		configurationReader();
 	}

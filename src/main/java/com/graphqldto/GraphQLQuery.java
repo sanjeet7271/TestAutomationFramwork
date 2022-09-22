@@ -1,5 +1,10 @@
 package com.graphqldto;
 
+/**
+ * 
+ * @author Sanjeet Kumar Pandit
+ *
+ */
 public class GraphQLQuery {
 
 	private String query;

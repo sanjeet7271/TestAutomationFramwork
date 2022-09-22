@@ -2,6 +2,11 @@ package com.resourcesreader;
 
 import com.configuration.ConfigurationReader;
 
+/**
+ * 
+ * @author Sanjeet Kumar Pandit
+ *
+ */
 public class ResourcesURLsReader extends ConfigurationReader {
 
 	private String getStoreBaseURI;
@@ -13,14 +18,13 @@ public class ResourcesURLsReader extends ConfigurationReader {
 	public ResourcesURLsReader() {
 		setConfig();
 	}
-	
+
 	public static ResourcesURLsReader getInstance() {
 		if (null == instance) {
 			instance = new ResourcesURLsReader();
 		}
 		return instance;
 	}
-
 
 	public void setConfig() {
 		this.getStoreBaseURI = prop.getProperty("STORE_URL");
@@ -47,7 +51,7 @@ public class ResourcesURLsReader extends ConfigurationReader {
 		String getJokesResourceURI = this.getJokesResourceURI;
 		return getJokesResourceURI;
 	}
-	
+
 	public String getRandomJokesResourceURI() {
 		logger.info("Jokes endpoint url is loading...");
 		String getRandomJokesResourceURI = this.getRandomJokesResourceURI;

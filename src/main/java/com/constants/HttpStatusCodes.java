@@ -1,5 +1,10 @@
 package com.constants;
 
+/**
+ * 
+ * @author Sanjeet Kumar Pandit
+ *
+ */
 public class HttpStatusCodes {
 	public static int RESPONSE_STATUS_CODE_200 = 200;
 	public static int RESPONSE_STATUS_CODE_204 = 204;

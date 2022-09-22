@@ -13,6 +13,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.restassured.response.Response;
 
+/**
+ * 
+ * @author Sanjeet Kumar Pandit
+ *
+ */
 public class RandomJokesLogic {
 	public static Logger logger = Logger.getLogger(RandomJokesLogic.class);
 	RestAssuredMethods restCall = new RestAssuredMethods();

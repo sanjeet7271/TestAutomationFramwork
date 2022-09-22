@@ -16,6 +16,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.restassured.response.Response;
 
+/**
+ * 
+ * @author Sanjeet Kumar Pandit
+ *
+ */
 public class StoreTestLogic {
 	RestAssuredMethods restCall = new RestAssuredMethods();
 	GraphQLQuery query = new GraphQLQuery();

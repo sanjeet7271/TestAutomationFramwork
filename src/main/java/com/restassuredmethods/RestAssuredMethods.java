@@ -7,6 +7,11 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
+/**
+ * 
+ * @author Sanjeet Kumar Pandit
+ *
+ */
 public class RestAssuredMethods {
 	ResourcesURLsReader resource = new ResourcesURLsReader();
 	Response response = null;
